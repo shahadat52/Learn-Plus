@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './Topic.css'
+import "./Topic.css";
 
 const Topics = ({ topic }) => {
   const { logo, name, total, id } = topic;
@@ -69,6 +69,3 @@ const Topics = ({ topic }) => {
 };
 
 export default Topics;
-
-
-

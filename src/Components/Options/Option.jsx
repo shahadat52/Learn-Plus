@@ -1,7 +1,7 @@
 import React from "react";
 import "./Option.css";
 import Swal from "sweetalert2";
-import { MdOutlineQuestionAnswer, MdQuestionAnswer } from "react-icons/md";
+import { MdQuestionAnswer } from "react-icons/md";
 
 const Option = ({ option, correctAnswer }) => {
   const handleCorrectAns = (ans) => {

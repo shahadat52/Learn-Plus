@@ -110,7 +110,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="py-6 text-sm text-center text-gray-400">
+      <div className="py-6 text-sm text-center text-gray-700">
         © 2022 Learn Plus Inc. All rights reserved.
       </div>
     </footer>

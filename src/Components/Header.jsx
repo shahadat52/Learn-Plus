@@ -145,7 +145,7 @@ const Header = () => {
                           title="Home"
                           className={({ isActive }) =>
                             isActive
-                              ? "font-medium tracking-wide text-red-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                              ? "font-medium tracking-wide text-blue-500 transition-colors duration-200 hover:text-deep-purple-accent-400"
                               : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           }
                         >
@@ -159,7 +159,7 @@ const Header = () => {
                           title="Books"
                           className={({ isActive }) =>
                             isActive
-                              ? "font-medium tracking-wide text-red-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                              ? "font-medium tracking-wide text-blue-500 transition-colors duration-200 hover:text-deep-purple-accent-400"
                               : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           }
                         >
@@ -173,7 +173,7 @@ const Header = () => {
                           title="Blog"
                           className={({ isActive }) =>
                             isActive
-                              ? "font-medium tracking-wide text-red-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                              ? "font-medium tracking-wide text-blue-500 transition-colors duration-200 hover:text-deep-purple-accent-400"
                               : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           }
                         >
@@ -187,7 +187,7 @@ const Header = () => {
                           title="About us"
                           className={({ isActive }) =>
                             isActive
-                              ? "font-medium tracking-wide text-red-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                              ? "font-medium tracking-wide text-blue-500 transition-colors duration-200 hover:text-deep-purple-accent-400"
                               : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           }
                         >
