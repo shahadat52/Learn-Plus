@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './Topic.css'
 
 const Topics = ({ topic }) => {
   const { logo, name, total, id } = topic;

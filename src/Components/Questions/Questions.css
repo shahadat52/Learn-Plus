@@ -16,3 +16,11 @@
   margin-bottom: 10px;
   /* background-color: aquamarine; */
 }
+
+@media only screen and (max-width: 800px) {
+  .option-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+  }
+}

@@ -1,6 +1,22 @@
 .topic-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin: 25px auto;
-  
+  gap: 20px;
+  margin: 25px 10px;
+}
+
+@media only screen and (max-width: 669px) {
+  .topic-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 25px auto;
+  }
+}
+
+@media only screen and (min-width: 670px) and (max-width: 1000px) {
+  .topic-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 25px auto;
+  }
 }
