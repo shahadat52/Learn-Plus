@@ -10,7 +10,7 @@ const Quiz = () => {
 
   return (
     <div className=" quiz text-center pb-20">
-      <img src={logo} alt="" className=" mx-auto  rounded-lg  " />
+      <img src={logo} alt="" className=" mx-auto rounded-lg  " />
       <h1 className="lg:text-7xl text-5xl md:text-5xl font-bold option-name-container  ">
         <span className="option-name">{name}</span>
       </h1>
