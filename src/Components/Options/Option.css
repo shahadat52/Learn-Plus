@@ -1,0 +1,19 @@
+.option-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.option {
+  font-size: 15px;
+  padding: 5px 20px;
+  background-color: black;
+  color: aliceblue;
+  margin: 10px;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.option:focus {
+  background-color: whitesmoke;
+  color: blueviolet;
+}

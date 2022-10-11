@@ -1,0 +1,18 @@
+.question {
+  color: rgb(62, 71, 79);
+  background-color: rgb(237, 243, 241);
+  margin-top: 50px;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 50px 10%;
+  box-shadow: 10px 10px 30px #aaaaaa;
+}
+.option-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 50px;
+}
+.question-name {
+  margin-bottom: 10px;
+  /* background-color: aquamarine; */
+}
